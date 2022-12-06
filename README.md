@@ -1,5 +1,5 @@
-#RESOLVER
+# RESOLVER
 
-##About
+## About
 
-Resolver is an open source shell script for Linux.
+### Resolver is an open source shell script for Linux.
