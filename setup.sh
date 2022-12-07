@@ -9,7 +9,8 @@ SFSERVER= server
 SFDOWNLOAD= download
 SFMAJ= maj
 
-SFHOST=
+SFHOST=8.8.8.8
+SFHOST2=8.8.4.4
 
 
 if [$1 == SFID && $2 == SFPASS && $3 == SFPING]; then
@@ -32,5 +33,6 @@ elif [$1 == SFID && $2 == SFPASS && $3 == SFDOWNLOAD]; then
     apt install 
 
 elif [$1 == SFID && $2 == SFPASS && $3 == SFMAJ]; then
+
 
 else []; then
