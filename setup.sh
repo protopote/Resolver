@@ -21,7 +21,7 @@ elif [$1 == SFID && $2 == SFPASS && $3 == SFNMAP]; then
 elif [$1 == SFID && $2 == SFPASS && $3 == SFTRACEROUTE]; then
 
 elif [$1 == SFID && $2 == SFPASS && $3 == SFSERVER]; then
-echo "Le server va demarer"
+echo "Le server va demarer."
     python -m http.server --directory home/...
 echo "Le server est fermer."
 
